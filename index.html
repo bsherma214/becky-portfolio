@@ -1,61 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Becky Sherman</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    background: #F7F5F1;
-    color: #1A1A18;
-    font-family: 'Inter', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 2rem;
-  }
-  .wrap {
-    max-width: 560px;
-    text-align: center;
-  }
-  h1 {
-    font-family: 'Fraunces', serif;
-    font-weight: 400;
-    font-size: clamp(28px, 5vw, 38px);
-    line-height: 1.3;
-  }
-  p {
-    font-size: 15px;
-    color: #5B5A54;
-    line-height: 1.7;
-    margin-top: 16px;
-    max-width: 440px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .status {
-    display: inline-block;
-    margin-top: 2rem;
-    background: #FBF0ED;
-    border: 0.5px solid #D9B3A9;
-    color: #8C3F30;
-    font-size: 12px;
-    letter-spacing: 0.03em;
-    padding: 8px 16px;
-    border-radius: 6px;
-  }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Becky Sherman</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="wrap">
-    <h1>Global design leader who delivers results, not just design.</h1>
-    <p>This is a test deployment confirming the build pipeline works. The real site starts here.</p>
-    <div class="status">Deployment test &middot; live</div>
+
+  <h1>Global design leader who delivers results, not just design.</h1>
+  <p>I'm a trusted partner to product and engineering leadership, on equal footing, enabling teams to use customer centricity as a strategic lever that drives business outcomes, from a $111 million revenue lift at American Airlines to embedding design into the product lifecycle at Siemens.</p>
+
+  <div class="stats">
+    <div class="stat stat-hero">
+      <div class="stat-number">130+</div>
+      <div class="stat-label">professionals led</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">$24.3B</div>
+      <div class="stat-label">platform redesigned</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">2</div>
+      <div class="stat-label">transformations</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Retail, telecom, industrial software, aviation</div>
+    </div>
   </div>
+
+  <section class="case-studies">
+    <a href="case-studies/booking-engine.html" class="case-card">
+      <div class="case-image">Hero visual</div>
+      <p class="case-text">A redesign of American's $24.3 billion booking engine that added $111 million in incremental revenue.</p>
+    </a>
+    <a href="case-studies/aileron.html" class="case-card">
+      <div class="case-image">Hero visual</div>
+      <p class="case-text">A reusable design system now reaching 66 percent of the customer-facing development community across Commercial teams.</p>
+    </a>
+    <a href="case-studies/ecs.html" class="case-card">
+      <div class="case-image">Hero visual</div>
+      <p class="case-text">A digital communication system for the Integrated Operations Center that cut pilot call volume by 45 percent year over year.</p>
+    </a>
+    <a href="case-studies/app-ios26.html" class="case-card">
+      <div class="case-image">Hero visual</div>
+      <p class="case-text">A full app redesign with Apple that exceeded revenue forecast by $2.3 million and earned featured placement in the App Store.</p>
+    </a>
+  </section>
+
 </body>
 </html>
