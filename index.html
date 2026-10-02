@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Becky Sherman</title>
+  <meta name="description" content="Becky Sherman is a global design leader who delivers results, not just design. Leading UX for 140+ applications at American Airlines.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Becky Sherman">
+  <meta property="og:title" content="Becky Sherman">
+  <meta property="og:description" content="Becky Sherman is a global design leader who delivers results, not just design. Leading UX for 140+ applications at American Airlines.">
+  <meta property="og:image" content="https://becky-portfolio-gamma.vercel.app/og-image.jpg">
+  <meta property="og:image:alt" content="Becky Sherman, global design leader who delivers results, not just design.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +22,17 @@
 </head>
 <body>
 
-  <nav class="nav">
-    <a href="index.html" class="active">Home</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <nav class="nav" aria-label="Main">
+    <a href="index.html" class="active" aria-current="page">Home</a>
     <a href="about.html">About</a>
     <a href="case-studies/index.html">Case studies</a>
     <a href="impact.html">Impact</a>
     <a href="contact.html">Contact</a>
   </nav>
+
+  <main id="main" tabindex="-1">
 
   <div class="intro">
     <img class="intro-photo" src="images/about/becky-sherman.jpg" alt="Becky Sherman">
@@ -49,27 +64,37 @@
 
   <section class="case-studies" id="case-studies">
     <a href="case-studies/booking-engine.html" class="case-card">
-      <img class="case-image" src="images/cards/card-booking-engine.jpg" alt="">
-      <div class="case-title">Booking engine redesign</div>
+      <img class="case-image" src="images/cards/card-booking-engine.jpg" alt="" loading="lazy" decoding="async">
+      <h2 class="case-title">Booking engine redesign</h2>
       <p class="case-text">A redesign of American's $24.3 billion booking engine that added $111 million in incremental revenue.</p>
     </a>
     <a href="case-studies/aileron.html" class="case-card">
-      <img class="case-image" src="images/cards/card-aileron.jpg" alt="">
-      <div class="case-title">Aileron design system</div>
+      <img class="case-image" src="images/cards/card-aileron.jpg" alt="" loading="lazy" decoding="async">
+      <h2 class="case-title">Aileron design system</h2>
       <p class="case-text">A reusable design system now reaching 66% of the customer-facing development community across Commercial teams.</p>
     </a>
     <a href="case-studies/ecs.html" class="case-card">
-      <img class="case-image" src="images/cards/card-ecs.jpg" alt="">
-      <div class="case-title">ECS communication system</div>
+      <img class="case-image" src="images/cards/card-ecs.jpg" alt="" loading="lazy" decoding="async">
+      <h2 class="case-title">ECS communication system</h2>
       <p class="case-text">A digital communication system for the Integrated Operations Center that cut call volume by 46%.</p>
     </a>
     <a href="case-studies/app-ios26.html" class="case-card">
-      <img class="case-image" src="images/cards/card-app-ios26.jpg" alt="">
-      <div class="case-title">App redesign for iOS 26</div>
+      <img class="case-image" src="images/cards/card-app-ios26.jpg" alt="" loading="lazy" decoding="async">
+      <h2 class="case-title">App redesign for iOS 26</h2>
       <p class="case-text">A full app redesign with Apple that exceeded revenue forecast by $2.3 million and earned featured placement in the App Store.</p>
     </a>
   </section>
+  </main>
 
+  <footer class="site-footer">
+    <p class="footer-name">Becky Sherman <span aria-hidden="true">&middot;</span> Dallas</p>
+    <ul class="footer-links">
+      <li><a href="mailto:bsherma@hotmail.com">Email</a></li>
+      <li><a href="https://www.linkedin.com/in/beckysherman/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+      <li><a href="resume.pdf">Resume (PDF)</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 Becky Sherman</p>
+  </footer>
 
 </body>
 </html>

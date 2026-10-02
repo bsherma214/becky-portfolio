@@ -3,7 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>App Redesign & iOS 26 - Becky Sherman</title>
+  <title>App Redesign and iOS 26 - Becky Sherman</title>
+  <meta name="description" content="A full app redesign with Apple that exceeded revenue forecast by $2.3 million and earned featured placement in the App Store.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Becky Sherman">
+  <meta property="og:title" content="App Redesign and iOS 26 - Becky Sherman">
+  <meta property="og:description" content="A full app redesign with Apple that exceeded revenue forecast by $2.3 million and earned featured placement in the App Store.">
+  <meta property="og:image" content="https://becky-portfolio-gamma.vercel.app/og-image.jpg">
+  <meta property="og:image:alt" content="Becky Sherman, global design leader who delivers results, not just design.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="stylesheet" href="../style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,10 +22,12 @@
 </head>
 <body>
 
-  <nav class="nav has-sub">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <nav class="nav has-sub" aria-label="Main">
     <a href="../index.html">Home</a>
     <a href="../about.html">About</a>
-    <a href="index.html" class="active">Case studies</a>
+    <a href="index.html" class="active" aria-current="true">Case studies</a>
     <a href="../impact.html">Impact</a>
     <a href="../contact.html">Contact</a>
   </nav>
@@ -25,57 +38,59 @@
     <a href="app-ios26.html" aria-current="page">App and iOS 26</a>
   </nav>
 
-  <div class="case-label">App Redesign &amp; iOS 26 &middot; Consumer Product</div>
+  <main id="main" tabindex="-1">
+
+  <div class="case-label">App Redesign and iOS 26 &middot; Consumer Product</div>
   <h1 class="case-headline">A full app redesign with Apple that exceeded revenue forecast by $2.3 million and earned featured placement in the App Store.</h1>
 
-  <img class="hero-image" src="../images/app-ios26/app-ios26-hero.jpg" alt="Three iPhone screens showing the redesigned American Airlines app home screen, a destination discovery map, and an AAdvantage account summary">
+  <img class="hero-image" src="../images/app-ios26/app-ios26-hero.jpg" alt="Three iPhone screens showing the redesigned American Airlines app home screen, a destination discovery map and an AAdvantage account summary">
 
-  <div class="section-label">Overview</div>
-  <p class="bio">The UX team, in partnership with Apple, product, and engineering, redesigned the American Airlines app to align with iOS 26 and Liquid Glass, Apple's first major redesign of its own design language in more than a decade. Through competitive audits, user research, and rapid prototyping, the team translated Apple's new design standards into a streamlined, customer-centered experience. Usability studies validated design decisions, reduced rework, and ensured alignment with both customer needs and business goals. Because Apple updates its platform standards every year, this kind of redesign isn't a one-time event, it's a recurring capability. Meeting that bar consistently, without day-to-day direction from Becky, is the clearest proof that the standards she's built into the organization hold up under real pressure, not just when conditions are predictable.</p>
+  <h2 class="section-label">Overview</h2>
+  <p class="bio">The UX team, in partnership with Apple, product, and engineering, redesigned the American Airlines app to align with iOS 26 and Liquid Glass, Apple's first major redesign of its own design language in more than a decade. Through competitive audits, user research and rapid prototyping, the team translated Apple's new design standards into a streamlined, customer-centered experience. Usability studies validated design decisions, reduced rework and ensured alignment with both customer needs and business goals. Because Apple updates its platform standards every year, this kind of redesign isn't a one-time event. It's a recurring capability. Meeting that bar consistently, without day-to-day direction from Becky, is the clearest proof that the standards she's built into the organization hold up under real pressure, not just when conditions are predictable.</p>
 
-  <div class="section-label">Objectives</div>
+  <h2 class="section-label">Objectives</h2>
   <div class="objectives">
-    <div class="stat">Increase revenue and customer engagement by redesigning the app experience to improve usability, simplify navigation, and enhance the user experience</div>
-    <div class="stat">Optimize performance and ensure platform compliance, building a high-performing iOS and Android app with speed, reliability, and seamless functionality</div>
+    <div class="stat">Increase revenue and customer engagement by redesigning the app experience to improve usability, simplify navigation and enhance the user experience</div>
+    <div class="stat">Optimize performance and ensure platform compliance, building a high-performing iOS and Android app with speed, reliability and smooth functionality</div>
     <div class="stat">Enhance accessibility and achieve industry recognition through improved usability and comprehensive testing</div>
   </div>
 
-  <div class="section-label">Discover &amp; Define</div>
-  <p class="bio">The team conducted a competitive analysis and audit of the app, targeting improvements to revenue-generating flows, and defined the design strategy through stakeholder interviews to ensure alignment with business goals and technical feasibility. The navigation experience was audited specifically to improve discoverability and quick access to frequently used features, while the team prioritized enhancements beyond the day of travel, loyalty, rewards, trip management, and a more personalized booking experience.</p>
+  <h2 class="section-label">Discover and Define</h2>
+  <p class="bio">The team conducted a competitive analysis and audit of the app, targeting improvements to revenue-generating flows, and defined the design strategy through stakeholder interviews to ensure alignment with business goals and technical feasibility. The navigation experience was audited specifically to improve discoverability and quick access to frequently used features, while the team prioritized enhancements beyond the day of travel, loyalty, rewards, trip management and a more personalized booking experience.</p>
 
   <div class="process-grid process-grid-2 process-grid-wide">
     <figure>
-      <img src="../images/app-ios26/app-ios26-nav-audit.jpg" alt="A site map made of sticky notes showing the American Airlines app navigation structure, organized by home, travel, book, rewards and account">
+      <img src="../images/app-ios26/app-ios26-nav-audit.jpg" alt="A site map made of sticky notes showing the American Airlines app navigation structure, organized by home, travel, book, rewards and account" loading="lazy" decoding="async">
       <figcaption>Auditing the navigation for discoverability</figcaption>
     </figure>
     <figure>
-      <img src="../images/app-ios26/app-ios26-heuristic-audit.jpg" alt="Screens from the existing app arranged in a row with handwritten critique notes above each one">
+      <img src="../images/app-ios26/app-ios26-heuristic-audit.jpg" alt="Screens from the existing app arranged in a row with handwritten critique notes above each one" loading="lazy" decoding="async">
       <figcaption>Competitive and heuristic audit of the existing app</figcaption>
     </figure>
   </div>
 
-  <div class="section-label">Design &amp; Deliver</div>
-  <p class="bio">The team held twice-weekly design reviews with product, moving from wireframes to high-fidelity prototypes tested with real users and focus groups. Feedback came through a mix of unmoderated research, in-person sessions at Admirals Club lounges, and focus groups, capturing user sentiment and validating the new experience before launch. A new AI-generative booking feature was designed, tested, and developed in-house, letting customers search by describing what they're looking for rather than filtering manually. Final designs were completed in close collaboration with Apple as part of the Liquid Glass rollout, and with engineering to ensure a smooth, fully tested launch.</p>
+  <h2 class="section-label">Design and Deliver</h2>
+  <p class="bio">The team held twice-weekly design reviews with product, moving from wireframes to high-fidelity prototypes tested with real users and focus groups. Feedback came through a mix of unmoderated research, in-person sessions at Admirals Club lounges and focus groups, capturing user sentiment and validating the new experience before launch. A new AI-generative booking feature was designed, tested and developed in-house, letting customers search by describing what they're looking for rather than filtering manually. Final designs were completed in close collaboration with Apple as part of the Liquid Glass rollout, and with engineering to ensure a smooth, fully tested launch.</p>
 
   <div class="process-grid process-grid-2 process-grid-wide">
     <figure>
-      <img src="../images/app-ios26/app-ios26-wireframe-grid.jpg" alt="A row of six low-fidelity wireframes showing early concepts for the app's home, book, rewards and account screens">
+      <img src="../images/app-ios26/app-ios26-wireframe-grid.jpg" alt="A row of six low-fidelity wireframes showing early concepts for the app's home, book, rewards and account screens" loading="lazy" decoding="async">
       <figcaption>Wireframing the new American app</figcaption>
     </figure>
     <figure>
-      <img src="../images/app-ios26/app-ios26-booking-prompt.jpg" alt="Two phone screens showing a prompt-based destination search and a list of matching trip results">
+      <img src="../images/app-ios26/app-ios26-booking-prompt.jpg" alt="Two phone screens showing a prompt-based destination search and a list of matching trip results" loading="lazy" decoding="async">
       <figcaption>Prompt-based booking search</figcaption>
     </figure>
   </div>
 
   <div class="process-grid process-grid-solo">
     <figure>
-      <img src="../images/app-ios26/app-ios26-apple-event.jpg" alt="Five panelists seated on stage at an Apple event in front of an iOS 26 branded backdrop with the American Airlines logo">
+      <img src="../images/app-ios26/app-ios26-apple-event.jpg" alt="Five panelists seated on stage at an Apple event in front of an iOS 26 branded backdrop with the American Airlines logo" loading="lazy" decoding="async">
       <figcaption>Collaborating with Apple on Liquid Glass</figcaption>
     </figure>
   </div>
 
-  <div class="section-label">Outcomes</div>
+  <h2 class="section-label">Outcomes</h2>
   <div class="stats">
     <div class="stat stat-hero">
       <div class="stat-number">$2.3M</div>
@@ -86,12 +101,12 @@
       <div class="stat-label">AAdvantage enrollment lift, A/B test</div>
     </div>
     <div class="stat">
-      <div class="stat-number">24k+</div>
+      <div class="stat-number">24,000+</div>
       <div class="stat-label">AAdvantage enrollments, production</div>
     </div>
     <div class="stat">
       <div class="stat-text">Featured by Apple</div>
-      <div class="stat-label">App Store travel category &amp; Apple Design Gallery</div>
+      <div class="stat-label">App Store travel category and Apple Design Gallery</div>
     </div>
   </div>
 
@@ -99,26 +114,37 @@
     <li>A native, in-house AI-generative booking feature shipped as part of the redesign, letting customers search by describing what they want rather than filtering manually</li>
   </ul>
 
-  <p class="attribution">Built by the American Airlines UX, Product, and Engineering teams, in partnership with Apple, operating under the design and research standards established across Becky Sherman's organization.</p>
+  <p class="attribution">Built by the American Airlines UX, Product and Engineering teams, in partnership with Apple, operating under the design and research standards established across Becky Sherman's organization.</p>
 
-  <div class="section-label">More case studies</div>
+  <h2 class="section-label">More results</h2>
   <div class="more-work">
     <a class="more-card" href="booking-engine.html">
-      <img class="more-image" src="../images/cards/card-booking-engine.jpg" alt="">
-      <div class="more-title">Booking engine redesign</div>
+      <img class="more-image" src="../images/cards/card-booking-engine.jpg" alt="" loading="lazy" decoding="async">
+      <h3 class="more-title">Booking engine redesign</h3>
       <div class="more-text">A redesign of American's $24.3 billion booking engine that added $111 million in incremental revenue.</div>
     </a>
     <a class="more-card" href="aileron.html">
-      <img class="more-image" src="../images/cards/card-aileron.jpg" alt="">
-      <div class="more-title">Aileron design system</div>
+      <img class="more-image" src="../images/cards/card-aileron.jpg" alt="" loading="lazy" decoding="async">
+      <h3 class="more-title">Aileron design system</h3>
       <div class="more-text">A reusable design system now reaching 66% of the customer-facing development community across Commercial teams.</div>
     </a>
     <a class="more-card" href="ecs.html">
-      <img class="more-image" src="../images/cards/card-ecs.jpg" alt="">
-      <div class="more-title">ECS communication system</div>
+      <img class="more-image" src="../images/cards/card-ecs.jpg" alt="" loading="lazy" decoding="async">
+      <h3 class="more-title">ECS communication system</h3>
       <div class="more-text">A digital communication system for the Integrated Operations Center that cut call volume by 46%.</div>
     </a>
   </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-name">Becky Sherman <span aria-hidden="true">&middot;</span> Dallas</p>
+    <ul class="footer-links">
+      <li><a href="mailto:bsherma@hotmail.com">Email</a></li>
+      <li><a href="https://www.linkedin.com/in/beckysherman/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+      <li><a href="../resume.pdf">Resume (PDF)</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 Becky Sherman</p>
+  </footer>
 
 <script>
   // Points the sub row's tray at the "Case studies" menu item.

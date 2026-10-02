@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - Becky Sherman</title>
+  <meta name="description" content="Research, design and AI practices that hold up at scale, proven across retail, telecom, industrial software and aviation.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Becky Sherman">
+  <meta property="og:title" content="Contact - Becky Sherman">
+  <meta property="og:description" content="Research, design and AI practices that hold up at scale, proven across retail, telecom, industrial software and aviation.">
+  <meta property="og:image" content="https://becky-portfolio-gamma.vercel.app/og-image.jpg">
+  <meta property="og:image:alt" content="Becky Sherman, global design leader who delivers results, not just design.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,13 +22,17 @@
 </head>
 <body>
 
-  <nav class="nav">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <nav class="nav" aria-label="Main">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="case-studies/index.html">Case studies</a>
     <a href="impact.html">Impact</a>
-    <a href="contact.html" class="active">Contact</a>
+    <a href="contact.html" class="active" aria-current="page">Contact</a>
   </nav>
+
+  <main id="main" tabindex="-1">
 
   <h1>I build design organizations that keep delivering.</h1>
   <p class="intro-text">Research, design and AI practices that hold up at scale, proven across retail, telecom, industrial software and aviation. Tell me what your team needs next.</p>
@@ -32,7 +47,7 @@
     <a class="contact-card" href="https://www.linkedin.com/in/beckysherman/" target="_blank" rel="noopener">
       <span class="cc-badge"><svg viewBox="0 0 80 80" width="56" height="56" aria-hidden="true" focusable="false"><defs><radialGradient id="cb2" cx="35%" cy="28%" r="75%"><stop offset="0%" stop-color="#FDF6F3"/><stop offset="60%" stop-color="#F7E3DE"/><stop offset="100%" stop-color="#E8C2B4"/></radialGradient><radialGradient id="cs2" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#1A1A18" stop-opacity="0.22"/><stop offset="100%" stop-color="#1A1A18" stop-opacity="0"/></radialGradient></defs><circle cx="40" cy="40" r="36" fill="url(#cb2)"/><ellipse cx="40" cy="61" rx="16" ry="3.5" fill="url(#cs2)"/><circle cx="34" cy="32" r="6.5" fill="#8C3F30"/><path d="M22 55c0-8 5.4-13 12-13s12 5 12 13z" fill="#8C3F30"/><circle cx="48" cy="34" r="5" fill="#5A2419" opacity=".85"/><path d="M44 43.5c6 0 12 4 12 11.5H47" fill="#5A2419" opacity=".85"/><ellipse cx="32" cy="29" rx="3" ry="2" fill="#FBF0ED" opacity=".45"/></svg></span>
       <span class="cc-label">LinkedIn</span>
-      <span class="cc-main">Connect with me</span>
+      <span class="cc-main">Connect with me<span class="sr-only"> (opens in a new tab)</span></span>
       <span class="cc-sub">Recommendations, background and updates.</span>
     </a>
     <a class="contact-card" href="resume.pdf">
@@ -43,13 +58,24 @@
     </a>
   </div>
 
-  <div class="section-label">Where I can help</div>
+  <h2 class="section-label">Where I can help</h2>
   <div class="looking">
-    <div class="look-item"><div class="look-head">Build or scale your design organization</div><p>From founding research and design ops to growing a team from 40 to 130+, with a leadership bench that runs without daily oversight.</p></div>
-    <div class="look-item"><div class="look-head">Make AI part of how your teams deliver</div><p>AI strategy, new ways of working between design and engineering, and the governance to scale it well.</p></div>
-    <div class="look-item"><div class="look-head">Tie design to business results</div><p>Research-led product decisions that have moved revenue, conversion and operations across four industries.</p></div>
+    <div class="look-item"><h3 class="look-head">Build or scale your design organization</h3><p>From founding research and design ops to growing a team from 40 to 130+, with a leadership bench that runs without daily oversight.</p></div>
+    <div class="look-item"><h3 class="look-head">Make AI part of how your teams deliver</h3><p>AI strategy, new ways of working between design and engineering, and the governance to scale it well.</p></div>
+    <div class="look-item"><h3 class="look-head">Tie design to business results</h3><p>Research-led product decisions that have moved revenue, conversion and operations across four industries.</p></div>
   </div>
   <p class="roles-line">Considering Sr. Director, Head of Design and VP or AVP of Product Design roles. Based in Dallas, open to remote or hybrid.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-name">Becky Sherman <span aria-hidden="true">&middot;</span> Dallas</p>
+    <ul class="footer-links">
+      <li><a href="mailto:bsherma@hotmail.com">Email</a></li>
+      <li><a href="https://www.linkedin.com/in/beckysherman/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+      <li><a href="resume.pdf">Resume (PDF)</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 Becky Sherman</p>
+  </footer>
 
 </body>
 </html>

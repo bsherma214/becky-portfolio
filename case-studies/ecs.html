@@ -3,7 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ECS - Becky Sherman</title>
+  <title>ECS Communication System - Becky Sherman</title>
+  <meta name="description" content="A digital communication system for the Integrated Operations Center that cut call volume by 46%.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Becky Sherman">
+  <meta property="og:title" content="ECS Communication System - Becky Sherman">
+  <meta property="og:description" content="A digital communication system for the Integrated Operations Center that cut call volume by 46%.">
+  <meta property="og:image" content="https://becky-portfolio-gamma.vercel.app/og-image.jpg">
+  <meta property="og:image:alt" content="Becky Sherman, global design leader who delivers results, not just design.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+  <link rel="apple-touch-icon" href="../apple-touch-icon.png">
   <link rel="stylesheet" href="../style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,10 +22,12 @@
 </head>
 <body>
 
-  <nav class="nav has-sub">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <nav class="nav has-sub" aria-label="Main">
     <a href="../index.html">Home</a>
     <a href="../about.html">About</a>
-    <a href="index.html" class="active">Case studies</a>
+    <a href="index.html" class="active" aria-current="true">Case studies</a>
     <a href="../impact.html">Impact</a>
     <a href="../contact.html">Contact</a>
   </nav>
@@ -25,54 +38,56 @@
     <a href="app-ios26.html">App and iOS 26</a>
   </nav>
 
-  <div class="case-label">ECS &middot; Crew Operations &amp; Communication</div>
+  <main id="main" tabindex="-1">
+
+  <div class="case-label">ECS &middot; Crew Operations and Communication</div>
   <h1 class="case-headline">A digital communication system for the Integrated Operations Center that cut call volume by 46%.</h1>
 
   <img class="hero-image" src="../images/ecs/ecs-hero.jpg" alt="The ECS mobile app for crew members shown in front of the ECS desktop dashboard used by Integrated Operations Center staff">
 
-  <div class="section-label">Overview</div>
-  <p class="bio">Crew schedulers and trackers at the Integrated Operations Center relied on manual phone calls and outdated communication channels to fulfill operational requests, creating delays and risk across a system supporting more than 40,000 crew members. The team built ECS as the first step toward a unified crew member experience platform, working with flight crew unions, crew members, and the Integrated Operations Center to build a strong foundation for that vision. This is the kind of outcome the durable processes and systems I've built across the organization are designed to produce. My team partners directly with product teams and drives results like this with minimal oversight from me, exactly the self-sufficiency those systems exist to create.</p>
+  <h2 class="section-label">Overview</h2>
+  <p class="bio">Crew schedulers and trackers at the Integrated Operations Center relied on manual phone calls and outdated communication channels to fulfill operational requests, creating delays and risk across a system supporting more than 40,000 crew members. The team built ECS as the first step toward a unified crew member experience platform, working with flight crew unions, crew members and the Integrated Operations Center to build a strong foundation for that vision. This is the kind of outcome the durable processes and systems I've built across the organization are designed to produce. My team partners directly with product teams and drives results like this with minimal oversight from me, exactly the self-sufficiency those systems exist to create.</p>
 
-  <div class="section-label">Objectives</div>
+  <h2 class="section-label">Objectives</h2>
   <div class="objectives">
     <div class="stat">Reduce time to handle operational requests, addressing the inefficiency of one-at-a-time phone communication</div>
     <div class="stat">Increase the efficiency of route changes by minimizing communication bottlenecks that contribute to operational risk</div>
     <div class="stat">Reduce call volume to the IOC by pilots, establishing ECS as the primary channel of communication between the IOC and crew</div>
   </div>
 
-  <div class="section-label">Discover &amp; Define</div>
-  <p class="bio">The team partnered directly with the Integrated Operations Center to understand crew workflows, running a design thinking workshop with schedulers, trackers, and product and IT stakeholders to remove conflicting assumptions about what a better system would actually look like. Service blueprints clarified system behavior across more than 40,000 crew members, surfacing exactly where operational requests were breaking down and why call volume to the IOC had grown unsustainable.</p>
+  <h2 class="section-label">Discover and Define</h2>
+  <p class="bio">The team partnered directly with the Integrated Operations Center to understand crew workflows, running a design thinking workshop with schedulers, trackers and product and IT stakeholders to remove conflicting assumptions about what a better system would actually look like. Service blueprints clarified system behavior across more than 40,000 crew members, surfacing exactly where operational requests were breaking down and why call volume to the IOC had grown unsustainable.</p>
 
   <div class="process-grid process-grid-2">
     <figure>
-      <img src="../images/ecs/ecs-crew-workflows.jpg" alt="A team member standing at a whiteboard covered in handwritten notes mapping crew member workflows">
+      <img src="../images/ecs/ecs-crew-workflows.jpg" alt="A team member standing at a whiteboard covered in handwritten notes mapping crew member workflows" loading="lazy" decoding="async">
       <figcaption>Crew member workflows</figcaption>
     </figure>
     <figure>
-      <img src="../images/ecs/ecs-ioc-workflows.jpg" alt="An IOC team member working at a desk with three monitors and a keyboard">
+      <img src="../images/ecs/ecs-ioc-workflows.jpg" alt="An IOC team member working at a desk with three monitors and a keyboard" loading="lazy" decoding="async">
       <figcaption>IOC workflows</figcaption>
     </figure>
   </div>
 
-  <div class="section-label">Design &amp; Deliver</div>
+  <h2 class="section-label">Design and Deliver</h2>
   <p class="bio">The team simplified complex crew interactions into a straightforward, functional design, tested directly with crew members on the go and IOC staff managing dense, content-heavy workflows. Iterative testing on the floor of the IOC surfaced quick wins the team could implement immediately, and the redesigned prioritization tools gave IOC members the ability to target urgent requests directly, rather than working through calls one at a time.</p>
 
   <div class="process-grid process-grid-3">
     <figure>
-      <img src="../images/ecs/ecs-functional-design.jpg" alt="Three ECS mobile app screens showing a crew member's flight details, schedule and contact options">
+      <img src="../images/ecs/ecs-functional-design.jpg" alt="Three ECS mobile app screens showing a crew member's flight details, schedule and contact options" loading="lazy" decoding="async">
       <figcaption>Straightforward, functional design</figcaption>
     </figure>
     <figure>
-      <img src="../images/ecs/ecs-quick-solutions-test.jpg" alt="Crew members and IOC staff testing the ECS design together at a workstation">
+      <img src="../images/ecs/ecs-quick-solutions-test.jpg" alt="Crew members and IOC staff testing the ECS design together at a workstation" loading="lazy" decoding="async">
       <figcaption>Tests reveal quick solutions</figcaption>
     </figure>
     <figure>
-      <img src="../images/ecs/ecs-dense-experience.jpg" alt="ECS desktop view showing a crew member's schedule beside a list of open requests">
+      <img src="../images/ecs/ecs-dense-experience.jpg" alt="ECS desktop view showing a crew member's schedule beside a list of open requests" loading="lazy" decoding="async">
       <figcaption>Dense, integrated experience</figcaption>
     </figure>
   </div>
 
-  <div class="section-label">Outcomes</div>
+  <h2 class="section-label">Outcomes</h2>
   <div class="stats stats-3">
     <div class="stat stat-hero">
       <div class="stat-number">46.2%</div>
@@ -89,7 +104,7 @@
   </div>
 
   <figure class="chart-figure">
-    <img src="../images/ecs/ecs-call-volume-chart.jpg" alt="Line chart of monthly call volume to the IOC across all users, January 2024 to September 2025. Volume averages about 20,300 before the ECS launch and about 10,900 after, a 46.2% reduction.">
+    <img src="../images/ecs/ecs-call-volume-chart.jpg" alt="Line chart of monthly call volume to the IOC across all users, January 2024 to September 2025. Volume averages about 20,300 before the ECS launch and about 10,900 after, a 46.2% reduction." loading="lazy" decoding="async">
     <figcaption class="chart-note chart-note-left">Monthly IOC call volume across all users, January 2024 through September 2025.</figcaption>
   </figure>
 
@@ -99,26 +114,37 @@
     <li>Broader adaptation and coverage of operational tasks projected to increase through 2026</li>
   </ul>
 
-  <p class="attribution">Built by the American Airlines UX, Product, and Integrated Operations Center teams, operating under the design and research standards established across Becky Sherman's organization.</p>
+  <p class="attribution">Built by the American Airlines UX, Product and Integrated Operations Center teams, operating under the design and research standards established across Becky Sherman's organization.</p>
 
-  <div class="section-label">More case studies</div>
+  <h2 class="section-label">More results</h2>
   <div class="more-work">
     <a class="more-card" href="booking-engine.html">
-      <img class="more-image" src="../images/cards/card-booking-engine.jpg" alt="">
-      <div class="more-title">Booking engine redesign</div>
+      <img class="more-image" src="../images/cards/card-booking-engine.jpg" alt="" loading="lazy" decoding="async">
+      <h3 class="more-title">Booking engine redesign</h3>
       <div class="more-text">A redesign of American's $24.3 billion booking engine that added $111 million in incremental revenue.</div>
     </a>
     <a class="more-card" href="aileron.html">
-      <img class="more-image" src="../images/cards/card-aileron.jpg" alt="">
-      <div class="more-title">Aileron design system</div>
+      <img class="more-image" src="../images/cards/card-aileron.jpg" alt="" loading="lazy" decoding="async">
+      <h3 class="more-title">Aileron design system</h3>
       <div class="more-text">A reusable design system now reaching 66% of the customer-facing development community across Commercial teams.</div>
     </a>
     <a class="more-card" href="app-ios26.html">
-      <img class="more-image" src="../images/cards/card-app-ios26.jpg" alt="">
-      <div class="more-title">App redesign for iOS 26</div>
+      <img class="more-image" src="../images/cards/card-app-ios26.jpg" alt="" loading="lazy" decoding="async">
+      <h3 class="more-title">App redesign for iOS 26</h3>
       <div class="more-text">A full app redesign with Apple that exceeded revenue forecast by $2.3 million and earned featured placement in the App Store.</div>
     </a>
   </div>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-name">Becky Sherman <span aria-hidden="true">&middot;</span> Dallas</p>
+    <ul class="footer-links">
+      <li><a href="mailto:bsherma@hotmail.com">Email</a></li>
+      <li><a href="https://www.linkedin.com/in/beckysherman/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+      <li><a href="../resume.pdf">Resume (PDF)</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 Becky Sherman</p>
+  </footer>
 
 <script>
   // Points the sub row's tray at the "Case studies" menu item.

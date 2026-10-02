@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About - Becky Sherman</title>
+  <meta name="description" content="Becky Sherman has built and scaled design and research organizations across retail, telecom, industrial software and aviation, growing one team from 40 to more than 130 professionals.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Becky Sherman">
+  <meta property="og:title" content="About - Becky Sherman">
+  <meta property="og:description" content="Becky Sherman has built and scaled design and research organizations across retail, telecom, industrial software and aviation, growing one team from 40 to more than 130 professionals.">
+  <meta property="og:image" content="https://becky-portfolio-gamma.vercel.app/og-image.jpg">
+  <meta property="og:image:alt" content="Becky Sherman, global design leader who delivers results, not just design.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,15 +22,20 @@
 </head>
 <body>
 
-  <nav class="nav">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <nav class="nav" aria-label="Main">
     <a href="index.html">Home</a>
-    <a href="about.html" class="active">About</a>
+    <a href="about.html" class="active" aria-current="page">About</a>
     <a href="case-studies/index.html">Case studies</a>
     <a href="impact.html">Impact</a>
     <a href="contact.html">Contact</a>
   </nav>
 
+  <main id="main" tabindex="-1">
+
   <img class="intro-photo about-photo" src="images/about/becky-sherman.jpg" alt="Becky Sherman">
+  <h1 class="about-name">Becky Sherman</h1>
 
   <div class="stats">
     <div class="stat stat-hero">
@@ -40,11 +56,22 @@
     </div>
   </div>
 
-  <p class="bio">I'm Becky Sherman, a global design leader who delivers results, not just design. I'm a trusted partner to product and engineering leadership, on equal footing, enabling teams to use customer centricity as a strategic lever that drives business outcomes, from a $111 million revenue lift at American Airlines to embedding design into the product lifecycle at Siemens. With more than 140 customer-facing and employee-facing applications under my organization's care, I lead by building durable systems and standards that let teams operate independently, not by directing every effort myself. My titles haven't always said UX. I've been a product manager, a director of eBusiness, an IT delivery manager, and that range is why design, product, and engineering don't feel like three departments to me. They feel like one job.</p>
+  <p class="bio">I'm Becky Sherman, a global design leader who delivers results, not just design. I'm a trusted partner to product and engineering leadership, on equal footing, enabling teams to use customer centricity as a strategic lever that drives business outcomes, from a $111 million revenue lift at American Airlines to embedding design into the product lifecycle at Siemens. With more than 140 customer-facing and employee-facing applications under my organization's care, I lead by building durable systems and standards that let teams operate independently, not by directing every effort myself. My titles haven't always said UX. I've been a product manager, a director of eBusiness and an IT delivery manager, and that range is why design, product and engineering don't feel like three departments to me. They feel like one job.</p>
 
-  <p class="bio">Over eight years at American Airlines, I've led the organization through two major transformations, growing the team from 40 to more than 130 professionals when the business scaled, and reducing headcount by 30% during COVID when it didn't. Both required the same skill, reading what the business actually needs and building or rebuilding the organization to match it. My range spans retail, telecom, industrial software, and aviation, and it's the reason I can walk into a new business, learn what it needs, and build the design function to deliver it.</p>
+  <p class="bio">Over eight years at American Airlines, I've led the organization through two major transformations. I grew the team from 40 to 64, reduced it by 30% during COVID, then rebuilt it to more than 130 professionals. Both required the same skill, reading what the business actually needs and building or rebuilding the organization to match it. My range spans retail, telecom, industrial software and aviation, and it's the reason I can walk into a new business, learn what it needs, and build the design function to deliver it.</p>
 
   <p class="background-line">Background: MS in Applied Cognition and Neuroscience, with a specialization in Human-Computer Interaction. It's why research gets built into how organizations operate, not just how products get tested.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p class="footer-name">Becky Sherman <span aria-hidden="true">&middot;</span> Dallas</p>
+    <ul class="footer-links">
+      <li><a href="mailto:bsherma@hotmail.com">Email</a></li>
+      <li><a href="https://www.linkedin.com/in/beckysherman/" target="_blank" rel="noopener">LinkedIn<span class="sr-only"> (opens in a new tab)</span></a></li>
+      <li><a href="resume.pdf">Resume (PDF)</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 Becky Sherman</p>
+  </footer>
 
 </body>
 </html>
