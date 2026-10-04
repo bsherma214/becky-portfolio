@@ -36,8 +36,6 @@ p {
 }
 
 .about-photo {
-  width: 144px;
-  height: 144px;
   margin-bottom: 2rem;
 }
 
@@ -145,13 +143,11 @@ p {
 }
 
 .bio {
-  max-width: 680px;
   text-align: left;
   margin-top: 1.5rem;
 }
 
 .background-line {
-  max-width: 680px;
   text-align: left;
   margin-top: 1.5rem;
   font-size: 15px;
@@ -424,15 +420,22 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 6px 22px;
+  gap: 4px 18px;
   width: fit-content;
   max-width: 100%;
   box-sizing: border-box;
   margin: 0 auto 3rem;
-  padding: 6px 20px;
+  padding: 4px 16px;
   background-color: #ECE6DB;
   border-radius: 16px;
   font-size: 13px;
+}
+
+@media (max-width: 480px) {
+  .sub-nav {
+    gap: 4px 10px;
+    padding: 4px 10px;
+  }
 }
 
 .sub-nav::before {
@@ -719,7 +722,7 @@ p {
 
 /* Single centered tile, used when one image has a different shape than the rest of its row (the Apple event photo on the App/iOS 26 page). */
 .process-grid-solo {
-  grid-template-columns: minmax(0, 55%);
+  grid-template-columns: minmax(0, 340px);
   justify-content: center;
 }
 
@@ -986,3 +989,53 @@ h1.about-name {
 }
 .footer-links a:hover { color: #1A1A18; }
 .footer-copy { font-size: 13px; color: #6F6E67; }
+
+/* Judgment calls: a win card and a loss card side by side (case study pages) */
+.judgment-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.judgment-card {
+  background: #FBFAF7;
+  border: 1px solid #D8D4C9;
+  border-top: 3px solid #6F6E67;
+  padding: 22px;
+  text-align: left;
+}
+.judgment-card.is-win { border-top-color: #8C3F30; }
+.judgment-card p { text-align: left; }
+.judgment-kind {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #6F6E67;
+  margin: 0 0 8px;
+}
+.judgment-card.is-win .judgment-kind { color: #8C3F30; }
+.judgment-title {
+  font-family: 'Fraunces', serif;
+  font-size: 22px;
+  line-height: 1.25;
+  margin: 0 0 10px;
+}
+.judgment-text {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0 0 10px;
+}
+.judgment-sowhat {
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 0;
+  padding-top: 10px;
+  border-top: 1px solid #D8D4C9;
+}
+.judgment-sowhat strong { font-weight: 500; }
+@media (max-width: 600px) {
+  .judgment-grid { grid-template-columns: 1fr; }
+}
