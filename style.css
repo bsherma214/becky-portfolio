@@ -221,7 +221,7 @@ p {
   font-size: 13px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #8C4448;
+  color: #8C3F30;
   font-weight: 500;
 }
 
@@ -289,7 +289,7 @@ p {
   text-align: center;
   font-size: 13px;
   letter-spacing: 0.05em;
-  color: #8C4448;
+  color: #6F6E67;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -708,6 +708,13 @@ p {
   aspect-ratio: 23 / 10;
   object-fit: cover;
   object-position: center;
+}
+
+/* Equal-height tiles for rows of images with slightly different shapes (Booking engine page). Keeps captions on one line. */
+.process-grid-uniform img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  object-position: left top;
 }
 
 /* Single centered tile, used when one image has a different shape than the rest of its row (the Apple event photo on the App/iOS 26 page). */
